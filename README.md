@@ -18,21 +18,30 @@ three sentences:
 Update this README with a description of each of the following and an
 example you've created:
 
-* `forEach`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* `map`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* `some`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
-* `every`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+* `forEach`: [This function a loop throught all the elemnts of the array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+* `map`: [This function runs a loop throught all the elemnts of the array and returns a new array with all the values (now) affected by the function called](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+		
+
+* `filter`: [This function only returns (new array with) the elements of the array that meet the condition] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+			
+* `reduce`: [Returns a new array with only one value. It accumulates the value returning from the function ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+			 
+* `some`: [This function returns true (or false) if at least one the elements meets the condition, otherwise returns false ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
+* `every`: [This function returns true only if all the elements meet the condition, otherwise returns false ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 Use the notes provided to help guide you explanation.
 
 ### Phase-2
 
+<!-- DONE -->
 * Run `npm install` from the `iterators_lab` directory.
+<!-- DONE -->
 * Looks at the tests we've written in the `test` folder. Run the tests
   with `npm test` (also from the `iterators_lab` directory). They
   should all fail.
+<!-- DONE -->
 * Get all of the tests to pass by writing the necessary code in
   `src/iterators.js`.
 
@@ -40,8 +49,26 @@ Use the notes provided to help guide you explanation.
 
 Refactor the following code using `map` to make only one call to the `map` function versus the two below.
 
+<!-- -ANSWER- -->
+var myNumbers = [ -1, 2, -3, 4, -5, 6];
 
-```
+var square = function(num) {
+	return num * num;
+};
+
+var sqrRoot = function(num) {
+	return Math.sqrt(square(num));
+};
+
+
+// var sqrNumbers = map(myNumbers, square);
+var absNumbers = myNumbers.map(sqrRoot);
+
+
+
+
+
+<!-- ```
 var myNumbers = [ -1, 2, -3, 4, -5, 6];
 
 var square = function(num) {
@@ -56,7 +83,7 @@ var sqrRoot = function(num) {
 var sqrNumbers = map(myNumbers, square);
 var absNumbers = map(sqrNumbers, sqrRoot);
 ```
-
+ -->
 
 
 

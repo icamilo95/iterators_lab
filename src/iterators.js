@@ -13,6 +13,7 @@ var Iterators = {
     return result;
 
   },
+  // DIFFERENT WAY TO SOLVE IT
   // tripler: function (numbers) {
   //     var multiplyNumbers = numbers.map(function (number) {
   //       return number * 3;
@@ -26,10 +27,6 @@ var Iterators = {
   //       return number * 3;
   //     });
   // }
-
-
-// -------------------
-
 
   // perfectSquares() should take an array of numbers as a parameter
   // and return an array that contains only the numbers from the
@@ -64,14 +61,11 @@ var Iterators = {
   // Use `reduce` to accomplish this.
   
   product: function (numbers) {
-
     function multiply (numA,numB){
       return numA * numB;
     }
-
     var result = numbers.reduce(multiply);
     return result;
-
   },
 
   // product: function(numbers) {
@@ -93,9 +87,7 @@ var Iterators = {
   // Use `some` to accomplish this.
   // Hint: see `toLowerCase`, it could be useful.
   hasInstructor: function (names) {
-
       function lookForName (name){
-          
           var teachers = ["tim","elie","alex"];
           for (var i = 0; i < teachers.length; i++) {
               if (teachers[i] === name.toLowerCase()) {
@@ -104,10 +96,8 @@ var Iterators = {
           }
           return false;
       }
-
       var result = names.some(lookForName);
       return result;
-
   },
 
   // allSamePlayer() should accept an array of players, represented by
@@ -159,31 +149,20 @@ var Iterators = {
 
     var vowels = ["a","e","i","o","u","A","E","I","O","U"];
     function findVowel (letter){
-        
+      
         for (var i = 0; i < vowels.length; i++) {
             
             if (vowels[i] === letter) {
                 return false;
             } 
-              
          }
-
             return true;
      }
 
     var textArr = text.split("");
     var result = textArr.filter(findVowel);
     return result.join("");
-
   }
-
-
-// Ends here
-
-
-
-
-
 };
 
 module.exports = Iterators;
