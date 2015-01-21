@@ -35,7 +35,7 @@ Use the notes provided to help guide you explanation.
 
 ### Phase-2
 
-<!-- DONE -->
+
 * Run `npm install` from the `iterators_lab` directory.
 <!-- DONE -->
 * Looks at the tests we've written in the `test` folder. Run the tests
@@ -44,12 +44,13 @@ Use the notes provided to help guide you explanation.
 <!-- DONE -->
 * Get all of the tests to pass by writing the necessary code in
   `src/iterators.js`.
+<!-- DONE -->
 
 ### Phase-3
 
 Refactor the following code using `map` to make only one call to the `map` function versus the two below.
 
-<!-- -ANSWER- -->
+
 var myNumbers = [ -1, 2, -3, 4, -5, 6];
 
 var square = function(num) {
