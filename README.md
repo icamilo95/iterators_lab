@@ -18,18 +18,18 @@ three sentences:
 Update this README with a description of each of the following and an
 example you've created:
 
-* `forEach`: [This function a loop throught all the elemnts of the array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+* `forEach`: [Runs a loop throught all the elements of the array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
-* `map`: [This function runs a loop throught all the elemnts of the array and returns a new array with all the values (now) affected by the function called](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+* `map`: [Runs a loop throught all the elements of the array and returns a new array with all the values (now) affected by the function called](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 		
 
-* `filter`: [This function only returns (new array with) the elements of the array that meet the condition] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+* `filter`: [Returns (new array with) the elements of the array that meet the condition] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 			
 * `reduce`: [Returns a new array with only one value. It accumulates the value returning from the function ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 			 
-* `some`: [This function returns true (or false) if at least one the elements meets the condition, otherwise returns false ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+* `some`: [Returns true if at least one the elements meets the condition, otherwise returns false ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
-* `every`: [This function returns true only if all the elements meet the condition, otherwise returns false ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+* `every`: [Returns true only if all the elements meet the condition, otherwise returns false ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 Use the notes provided to help guide you explanation.
 
